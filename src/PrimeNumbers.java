@@ -18,8 +18,8 @@ public class PrimeNumbers {
                 count+=1;
         }
         if(count> 2){
-            System.out.println("The number is prime");
-        }else
             System.out.println("The number is not prime");
+        }else
+            System.out.println("The number is  prime");
     }
 }
