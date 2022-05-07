@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class ReverseNum {
@@ -12,7 +13,5 @@ public class ReverseNum {
             num /= 10;
         }
         System.out.println("Reversed Num\n" + rev);
-
-
     }
 }
