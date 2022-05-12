@@ -8,7 +8,7 @@ public class Armstrong {
         if (armstrong (num, len))
             System.out.println(num + " is armstrong");
         else
-            System.out.println(num + " is armstrong");
+            System.out.println(num + " is not armstrong");
 
     }
 
