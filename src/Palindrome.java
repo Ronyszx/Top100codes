@@ -1,11 +1,10 @@
 public class Palindrome {
     public static void main (String[]args)
     {
-        //variables initialization
+
         int num = 12021, reverse = 0, rem, temp;
 
         temp = num;
-        //loop to find reverse number
         while (temp != 0)
         {
             rem = temp % 10;
@@ -20,3 +19,7 @@ public class Palindrome {
             System.out.println (num + " is not Palindrome");
     }
 }
+
+
+
+
