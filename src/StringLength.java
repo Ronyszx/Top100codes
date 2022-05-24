@@ -6,7 +6,6 @@ public class StringLength {
         System.out.println("Enter the String");
         String a = s.next();
         int Length =  a.length();
-        System.out.println("The length is "+ Length);
-
+        System.out.println("The length is: "+ Length);
     }
 }
