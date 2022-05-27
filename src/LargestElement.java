@@ -11,6 +11,6 @@ public class LargestElement {
             array[i]=s.nextInt();
         }
         for (int i = 0; i<n; i++)
-        System.out.println("The elements of array are:" + array[i]);
+        System.out.println(array[i]);
     }
 }
