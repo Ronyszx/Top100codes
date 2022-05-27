@@ -12,6 +12,13 @@ public class LargestElement {
         }
         for (int i = 0; i<n; i++)
         System.out.println(array[i]);
-
+        int max= array[0];
+        for(int i=0; i < array.length; i++)
+        {
+            if(max < array[i]){
+                max = array[i];
+            }
+        }
+        System.out.println("The biggest element is :"+ max);
     }
 }
