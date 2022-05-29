@@ -13,6 +13,5 @@ public class toggleChar {
                 s1=s1+Character.toUpperCase(ss.charAt(i));
         }
         System.out.println("Toggle String is : "+s1);
-
     }
 }
