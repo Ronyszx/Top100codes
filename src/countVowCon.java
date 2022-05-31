@@ -19,7 +19,5 @@ public class countVowCon {
                 System.out.println(cons);
             }
         }
-
-
     }
 }
