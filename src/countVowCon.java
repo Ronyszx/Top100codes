@@ -12,11 +12,9 @@ public class countVowCon {
         for(int i = 0; i < ss.length(); i++){
             if(ss.charAt(i)== 'a' | ss.charAt(i)== 'e' | ss.charAt(i)== 'i' | ss.charAt(i)== 'o'| ss.charAt(i)== 'u' ){
                 vowel++;
-
             }
             if(ss.charAt(i)!= 'a' & ss.charAt(i)!= 'e' & ss.charAt(i)!= 'i' & ss.charAt(i)!= 'o'& ss.charAt(i) != 'u'){
                 cons++;
-
             }
         }
         System.out.println(vowel);
