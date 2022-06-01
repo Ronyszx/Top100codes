@@ -5,7 +5,6 @@ public class countVowCon {
     public static void main(String args[]){
         Scanner s = new Scanner(System.in);
         String ss = s.nextLine();
-        char[] c = ss.toCharArray();
         int vowel = 0;
         int cons = 0;
 
@@ -17,7 +16,7 @@ public class countVowCon {
                 cons++;
             }
         }
-        System.out.println(vowel);
-        System.out.println(cons);
+        System.out.println("The number of vowels are:" +vowel);
+        System.out.println("The Number if cons are: "+ cons);
     }
 }
