@@ -7,12 +7,12 @@ public class countVowCon {
         String ss = s.nextLine();
         int vowel = 0;
         int cons = 0;
-
-        for(int i = 0; i < ss.length(); i++){
-            if(ss.charAt(i)== 'a' | ss.charAt(i)== 'e' | ss.charAt(i)== 'i' | ss.charAt(i)== 'o'| ss.charAt(i)== 'u' ){
+        String s1 = ss.toLowerCase();
+        for(int i = 0; i < s1.length(); i++){
+            if(s1.charAt(i)== 'a' | s1.charAt(i)== 'e' | s1.charAt(i)== 'i' | s1.charAt(i)== 'o'| s1.charAt(i)== 'u' ){
                 vowel++;
             }
-            if(ss.charAt(i)!= 'a' & ss.charAt(i)!= 'e' & ss.charAt(i)!= 'i' & ss.charAt(i)!= 'o'& ss.charAt(i) != 'u'){
+            if(s1.charAt(i)!= 'a' & s1.charAt(i)!= 'e' & s1.charAt(i)!= 'i' & s1.charAt(i)!= 'o'& s1.charAt(i) != 'u'){
                 cons++;
             }
         }
