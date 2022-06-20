@@ -13,7 +13,6 @@ public class DeciToBinary {
             binary[i++] = r;
             decimal = decimal/2;
         }
-        //printing result
         System.out.print("Binary number : ");
         for(int j = i-1 ; j >= 0 ; j--)
             System.out.print(binary[j]+"");
