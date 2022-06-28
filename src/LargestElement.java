@@ -5,7 +5,7 @@ public class LargestElement {
         Scanner s = new Scanner(System.in);
         System.out.println("Enter the number of elements you want to store in a array:");
         int n = s.nextInt();
-        int[] array = new int[10];
+        int[] array = new int[n];
         System.out.println("Enter the elements");
         for(int i = 0; i < n; i++){
             array[i]=s.nextInt();
