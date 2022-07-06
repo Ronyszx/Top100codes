@@ -10,8 +10,7 @@ public class removeDuplicateFromString {
         Set hs = new LinkedHashSet();
         for(int i = 0; i < c.length; i++){
             hs.add(c[i]);
-        }
-        System.out.println(hs);
 
+        System.out.println(hs.toArray().length);
     }
 }
