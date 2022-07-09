@@ -1,25 +1,35 @@
 public class Palindrome {
     public static void main (String[]args)
     {
+        int x = 121;
+        int sum = 0;
 
-        int num = 12021, reverse = 0, rem, temp;
-
-        temp = num;
-        while (temp != 0)
-        {
-            rem = temp % 10;
-            reverse = reverse * 10 + rem;
-            temp /= 10;
-        };
-
-        // palindrome if num and reverse are equal
-        if (num == reverse)
-            System.out.println (num + " is Palindrome");
+        while(x>0){
+            int rem = x%10;
+            x/=10;
+            sum = sum*10+rem;
+        }
+        System.out.println(sum);
+        if(x == sum) {
+            System.out.println("prime");
+        }
         else
-            System.out.println (num + " is not Palindrome");
-    }
-}
+            System.out.println("Not prime");
 
+        }
+       /* int num = 123456;
+
+        int ans = 0;
+
+        while (num > 0) {
+            int rem = num % 10;
+            num /= 10;
+
+            ans = ans * 10 + rem;
+        }
+
+        System.out.println(ans);*/
+    }
 
 
 
