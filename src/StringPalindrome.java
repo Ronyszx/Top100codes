@@ -11,8 +11,8 @@ public class StringPalindrome {
             s2 = s2 + s1.charAt(i);
         }
         if(s1.equals(s2)){
-            System.out.println("String is palindrome");
+            System.out.println(s2 + " String is palindrome");
         }else
-            System.out.println("String is not palindrome");
+            System.out.println(s2+ " String is not palindrome");
     }
 }
