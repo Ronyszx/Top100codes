@@ -3,19 +3,19 @@ public class Palindrome {
     {
         int x = 121;
         int sum = 0;
-
+        int rem = 0;
+        int temp = x;
         while(x>0){
-            int rem = x%10;
+            rem = x%10;
+            sum = (sum*10)+rem;
             x/=10;
-            sum = sum*10+rem;
         }
         System.out.println(sum);
-        if(x == sum) {
-            System.out.println("prime");
+        if( temp == sum){
+            System.out.println("palindrome");
         }
         else
-            System.out.println("Not prime");
-
+            System.out.println("Not palindrome");
         }
        /* int num = 123456;
 
